@@ -29,3 +29,24 @@ Search for directories.
 ```sh
 find . -type d'
 ```
+
+## Setting up postgresql
+
+Install postgresql
+
+```sh
+npm install -g postgresql
+```
+
+Creates a new database cluster
+
+```sh
+initdb [DATABASE_NAME]
+```
+
+Start the database cluster
+
+```sh
+pg_ctl -D [DATABASE_NAME] -l [DATABASE_NAME]/[LOGFILE_NAME].log start
+```
+
