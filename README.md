@@ -27,7 +27,7 @@ find . -name '[REGEX]'
 Search for directories.
 
 ```sh
-find . -type d'
+find . -type d
 ```
 
 ## Setting up postgresql
@@ -49,4 +49,3 @@ Start the database cluster
 ```sh
 pg_ctl -D [DATABASE_NAME] -l [DATABASE_NAME]/[LOGFILE_NAME].log start
 ```
-
